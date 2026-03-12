@@ -1,1 +1,1 @@
-## <center> Career AI Frontend
+<h1 style="text-align:center;"> Career AI Frontend </h1>
