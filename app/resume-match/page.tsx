@@ -56,7 +56,7 @@ export default function ResumeMatchPage() {
   };
 
   // Handles string OR the structured object your backend returns
-  const parseDifference = (diff: unknown): string[] => {
+const parseDifference = (diff: string | Record<string, unknown> | null): string[] =>{
     if (!diff) return [];
 
     // If it's already a plain string (after backend fix)
