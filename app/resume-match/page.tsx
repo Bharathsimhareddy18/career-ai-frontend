@@ -10,7 +10,7 @@ import { getRelevanceScore } from "@/lib/api";
 
 interface Result {
   score: number;
-  difference: unknown;
+  difference: string | Record<string, unknown> | null;
 }
 
 export default function ResumeMatchPage() {
